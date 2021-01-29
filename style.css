@@ -1,0 +1,23 @@
+body {
+    background-color: #05757f;
+    color: white;
+}
+
+.projects, .experience, h1, p{
+    text-align: center;
+}
+
+ul{
+list-style: none;
+text-align: center;
+}
+
+li{
+    display: inline;
+    font-size: 30px;
+    margin-right: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
