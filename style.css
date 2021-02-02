@@ -30,7 +30,7 @@ label{
 font-size: 21px;
 }
 
-input{
+input, button{
     margin-top: 5px;
     float:inline-start;
 }
