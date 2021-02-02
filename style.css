@@ -21,3 +21,16 @@ a{
     color: white;
     text-decoration: none;
 }
+
+form{
+    text-align: center;
+}
+
+label{
+font-size: 21px;
+}
+
+input{
+    margin-top: 5px;
+    float:inline-start;
+}
