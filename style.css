@@ -1,36 +1,52 @@
 body {
-    background-color: #05757f;
-    color: white;
+  background-color: #05757f;
+  color: white;
 }
 
-.projects, .experience, h1, p{
-    text-align: center;
+.projects {
+  font-size: 33px;
+  text-align: center;
+  height: 100px;
+  background-color: orange;
 }
 
-ul{
-list-style: none;
-text-align: center;
+.experience {
+  font-size: 33px;
+  text-align: center;
+  height: 100px;
+  background-color: bisque;
+}
+h1,
+p {
+  text-align: center;
 }
 
-li{
-    display: inline;
-    font-size: 30px;
-    margin-right: 40px;
-}
-a{
-    color: white;
-    text-decoration: none;
+ul {
+  list-style: none;
+  text-align: center;
 }
 
-form{
-    text-align: center;
+li {
+  display: inline;
+  font-size: 30px;
+  margin-right: 40px;
+}
+a {
+  color: white;
+  text-decoration: none;
 }
 
-label{
-font-size: 21px;
+form {
+  text-align: center;
 }
 
-input, button{
-    margin-top: 5px;
-    float:inline-start;
+label {
+  font-size: 21px;
+}
+
+input,
+button {
+  margin-top: 5px;
+  float: inline-start;
+  border-radius: 0.8em;
 }

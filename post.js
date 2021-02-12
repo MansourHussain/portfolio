@@ -20,8 +20,6 @@ app.post('/login', urlenco, function(req, res) {
     }
     console.log(response);
     res.end(JSON.stringify(response));
-
-    
 })
 
 var server = app.listen(8000, function(){
