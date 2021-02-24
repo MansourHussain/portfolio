@@ -15,8 +15,8 @@ conn.connect(function(err){
         console.log("Connected");
     }
     
-    var sql = "INSERT INTO users (name, address) VALUES ('Hassan', 'Khamis Mushait')";
-    conn.query(sql, function (err, result) {
+    var query = "INSERT INTO users (name, address) VALUES ('Mansour', 'Saudi Arabia')";
+    conn.query(query, function (err, result) {
         if (err) {
             throw err;
         }

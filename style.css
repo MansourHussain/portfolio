@@ -10,11 +10,30 @@ body {
   background-color: orange;
 }
 
-.experience {
+.personal_pic {
+  border-radius: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 130px;
+  width: 100px;
+}
+#soc_icons {
+  text-align: center; 
+  width: 100%; 
+}
+#soc_icons a {
+  padding: 5px;
+}
+.education {
   font-size: 33px;
   text-align: center;
-  height: 100px;
+  height: 145px;
+  color: black;
   background-color: bisque;
+}
+.education li {
+  font-size: 15px;
 }
 h1,
 p {

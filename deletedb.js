@@ -6,11 +6,11 @@ var conn = mysql.createConnection({
     password: "123456",
     database: 'login'
 });
-
+       
 conn.connect(function(err) {
     if (err) throw err;
     console.log('Connected');
-    var sql = "DELETE FROM users WHERE name ='منصور'";
+    var sql = "DELETE FROM users WHERE name ='Abdullah'";
     conn.query(sql, function(err, result){
         if (err) throw err;
         console.log("Deleted row :)")
