@@ -4,9 +4,10 @@ body {
 }
 
 .projects {
-  font-size: 33px;
+  font-size: 15px;
   text-align: center;
   height: 145px;
+  color: black;
   background-color: orange;
 }
 
