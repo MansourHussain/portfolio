@@ -34,7 +34,7 @@ header p {
   border-radius: 70px;
   margin-top: 16px;
 }
-.education li {
+.education p {
   font-size: 25px;
 }
 #container {
@@ -59,6 +59,7 @@ header p {
 
 .api {
   color: white;
+  font-size: 25px;
 }
 
 h1, p {
@@ -108,15 +109,16 @@ li a, .fa {
   .education{
     text-align: center;
       width: auto;
-      height: 100px;
+      height: 130px;
       background-color: rgba(61,136,203,255);
       font-size: 15px;
       color: white;
+      padding-top: 9px;
       padding-bottom:9px;
       border-radius: 70px;
   }
-  .education li {
-    font-size: 0.9em;
+  .education p {
+    font-size: 18px;
   }
   #container {
     font-size: 15px;
@@ -140,7 +142,11 @@ li a, .fa {
       border-radius: 70px;
 
   }
-
+  .api {
+    color: white;
+    font-size: 18px;
+  }
+  
   .contact{
     text-align: center;
     width: auto;
@@ -153,8 +159,8 @@ li a, .fa {
     border-radius: 70px;
 }
 
-.contact li {
+.contact p {
   text-align: center;
-  font-size: 10px;
+  font-size: 18px;
   }
 }
