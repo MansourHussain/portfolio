@@ -3,6 +3,8 @@
     <title>Mansour's Portfolio</title>
     <head></head>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script>
@@ -11,7 +13,7 @@
                 
                 let content = "";
                 for (let x in data){
-                    content+="<div>" + data[x].full_name + "</div>" + data[x].html_url;
+                    content+=`<a class="api" href="${data[x].html_url}"> ${data[x].full_name}</a> <br>`;
                 }
 
                 console.log(content);
@@ -24,9 +26,9 @@
     <body>
         <header>
             <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#header">About</a></li>
+                <li><a href="#container">Projects</a></li>
+                <li><a href="#con">Contact</a></li>
             </ul>
             
             <img class="personal_pic" src="personal_pic.jpg">
@@ -42,10 +44,10 @@
             </div>
             
             
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm Mansour Hussain, Software Developer, I keep learning evreyday. <br>
-            I have a CS Degree, I'm looking forward to change my career path.<br>
-            I Use Node.js and MongoDB to make web applications.
+            <h1 id="header">Welcome to My Portfolio</h1>
+            <p>I'm Mansour, Software Developer, I keep learning evreyday <br>
+            and attending courses in web development, I'm learning Node.js and MongoDB to make web applications.<br>
+            
             </p>
         </header>
 
@@ -56,13 +58,15 @@
                 <li>Diploma of Computer Science, Albaha College of Technology, June 2013</li>
             </ol>
         </div>
-        <div id="#pro" class="projects">Projects <br>
+        <div id="container"> Projects
+            <div id="#pro" class="projects"> <br> 
+            </div>
 
-            <p>Working to Complete this section soon...</p>
-
-            
         </div>
-        
+        <div id="con" class="contact"> Contact me <br>
+            <li>Phone: 966532322498</li> <br>
+            <li >Email: MansourHussain@outlook.sa</li>
+        </div>
         <footer><p>&copy; 2021 Mansour<p></p></footer>
     </body>
 </html>

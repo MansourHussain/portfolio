@@ -1,15 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
-  background-color: #05757f;
+  background-color: rgba(23,39,52,255);
   color: white;
 }
 
-.projects {
-  font-size: 15px;
-  text-align: center;
-  height: 145px;
-  color: black;
-  background-color: orange;
-}
 
 .personal_pic {
   border-radius: 120px;
@@ -26,18 +22,46 @@ body {
 #soc_icons a {
   padding: 5px;
 }
+header p {
+  font-size: 25px;
+}
 .education {
   font-size: 33px;
   text-align: center;
-  height: 145px;
-  color: black;
-  background-color: bisque;
+  height: 165px;
+  color: white;
+  background-color: rgba(61,136,203,255);
+  border-radius: 70px;
+  margin-top: 16px;
 }
 .education li {
-  font-size: 15px;
+  font-size: 25px;
 }
-h1,
-p {
+#container {
+  font-size: 33px;
+  text-align: center;
+  color: white;
+  margin-top: 16px;
+  background-color: rgba(61,136,203,255);
+  border-radius: 70px;
+}
+
+.projects {
+  font-size: 25px;
+  text-align: center;
+  height: 300px;
+  color: white;
+  background-color: rgba(61,136,203,255);
+  padding-top: 30px;
+  margin-top: 16px;
+  border-radius: 70px;
+}
+
+.api {
+  color: white;
+}
+
+h1, p {
   text-align: center;
 }
 
@@ -51,22 +75,86 @@ li {
   font-size: 30px;
   margin-right: 40px;
 }
-a {
+li a, .fa {
   color: white;
   text-decoration: none;
 }
 
-form {
+.contact {
+  font-size: 33px;
   text-align: center;
+  height: 165px;
+  color: white;
+  background-color: rgba(61,136,203,255);
+  border-radius: 70px;
+  padding-top: 9px;
+  margin-top: 16px;
+}
+.contact li {
+  font-size: 25px;
 }
 
-label {
-  font-size: 21px;
+@media screen and (max-width: 445px) {
+
+  li {
+    display: inline;
+    font-size: 20px;
+    
+  }
+  header p {
+    font-size: 20px;
+  }
+
+  .education{
+    text-align: center;
+      width: auto;
+      height: 100px;
+      background-color: rgba(61,136,203,255);
+      font-size: 15px;
+      color: white;
+      padding-bottom:9px;
+      border-radius: 70px;
+  }
+  .education li {
+    font-size: 0.9em;
+  }
+  #container {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    padding-top: 9px;
+    margin-top: 16px;
+    background-color: rgba(61,136,203,255);
+    border-radius: 70px;
+  
+  }
+  .projects{
+    text-align: center;
+      margin-top: 16px;
+      padding: 3px;
+      height: 150px;
+      width: auto;
+      font-size: 15px;
+      color:white;
+      background-color: rgba(61,136,203,255);
+      border-radius: 70px;
+
+  }
+
+  .contact{
+    text-align: center;
+    width: auto;
+    height: 100px;
+    background-color: rgba(61,136,203,255);
+    font-size: 15px;
+    color: white;
+    padding-top: 9px;
+    margin-top: 16px;
+    border-radius: 70px;
 }
 
-input,
-button {
-  margin-top: 5px;
-  float: inline-start;
-  border-radius: 0.8em;
+.contact li {
+  text-align: center;
+  font-size: 10px;
+  }
 }
